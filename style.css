@@ -1,0 +1,93 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  height: 28rem;
+  width: 28rem;
+  margin-left: 45rem;
+  margin-top: 15rem;
+  border-radius: 5%;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 3px 3px 25px 4px #0077b6;
+}
+
+.bkg {
+  width: 28rem;
+  height: 10rem;
+}
+
+.myphoto {
+  margin-top: -14%;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  margin-top: -6px;
+}
+
+.front {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 59%);
+  margin-top: -35px;
+}
+
+hr {
+  width: 27rem;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  margin-top: 1rem;
+}
+
+.grid {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  margin-left: 4.2rem;
+}
+
+.num {
+  margin-top: 0rem;
+  margin-left: 1.8rem;
+  font-weight: bold;
+}
+
+.tag {
+  margin-top: -0.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  padding: 11px 20px;
+  border-radius: 20px;
+  width: 10px;
+  border: none;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0096c7;
+  color: #fff;
+}
+
+.ionicon {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  margin-top: -14rem;
+  margin-left: -8rem;
+}

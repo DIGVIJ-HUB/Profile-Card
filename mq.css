@@ -1,0 +1,46 @@
+@media (max-width: 65em) {
+  .container {
+    margin-left: 20rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .container {
+    margin-left: 10rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .container {
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .container {
+    margin-left: 0.8rem;
+    margin-top: 10rem;
+    width: 22rem;
+  }
+
+  .bkg {
+    width: 22rem;
+    height: 9rem;
+  }
+
+  .grid {
+    margin-left: 2rem;
+  }
+
+  .btn {
+    margin-left: 7rem;
+  }
+
+  .ionicon {
+    margin-left: -5rem;
+  }
+
+  hr {
+    width: 21rem;
+  }
+}
